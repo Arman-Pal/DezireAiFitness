@@ -27,7 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <ConvexClerkProvider>
-      <html lang="en">
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
@@ -40,7 +39,6 @@ export default function RootLayout({
           <main className="pt-24 flex-grow">{children}</main>
           <Footer />
         </body>
-      </html>
     </ConvexClerkProvider>
   );
 }
