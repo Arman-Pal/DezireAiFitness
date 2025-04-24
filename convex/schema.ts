@@ -14,7 +14,7 @@ export default defineSchema({
     name: v.string(),
     workoutPlan: v.object({
       schedule: v.array(v.string()),
-      exercise: v.array(
+      exercises: v.array(
         v.object({
           day: v.string(),
           routines: v.array(
